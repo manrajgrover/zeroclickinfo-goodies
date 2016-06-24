@@ -22,16 +22,16 @@
     "sections": {
         "Non-Modifying sequence operations": [
             {
-                "key": "all_of",
-                "val": "Test condition on all elements in range"
+                "key": "std::all_of (first, last, p)",
+                "val": "Test condition on all elements in range, where first and last are the range of elements to examine and p is unary predicate"
             },
             {
-                "key": "any_of",
-                "val": "Test if any element in range fulfills condition"
+                "key": "std::any_of (first, last, p)",
+                "val": "Test if any element in range fulfills condition, where first and last are the range of elements to examine and p is unary predicate"
             },
             {
-                "key": "none_of",
-                "val": "Test if no elements fulfill condition"
+                "key": "std::none_of(first, last, p)",
+                "val": "Test if no elements fulfill condition, where first and last are the range of elements to examine and p is unary predicate"
             },
             {
                 "key": "for_each",
